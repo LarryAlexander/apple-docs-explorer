@@ -1,0 +1,28 @@
+name: AppleDocsExplorer
+options:
+  minimumXcodeGenVersion: 2.38.0
+  deploymentTarget:
+    macOS: "15.0"
+packages:
+  LocalPackage:
+    path: .
+targets:
+  AppleDocsExplorer:
+    type: application
+    platform: macOS
+    deploymentTarget: "15.0"
+    sources:
+      - AppleDocsExplorerApp/Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.lathekid.AppleDocsExplorer
+        PRODUCT_NAME: Apple Docs Explorer
+        SWIFT_STRICT_CONCURRENCY: complete
+        SWIFT_TREAT_WARNINGS_AS_ERRORS: YES
+        GENERATE_INFOPLIST_FILE: YES
+        MACOSX_DEPLOYMENT_TARGET: 15.0
+    dependencies:
+      - package: LocalPackage
+        product: DocsCore
+    scheme:
+      testTargets: []

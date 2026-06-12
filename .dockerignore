@@ -1,0 +1,7 @@
+.build
+.git
+.github
+.DS_Store
+DerivedData
+AppleDocsExplorer.xcodeproj
+docs/assets/screenshots/*.png
