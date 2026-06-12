@@ -4,6 +4,8 @@ Apple Docs Explorer is a native macOS app for reading Apple's locally installed 
 
 The app is the primary product. The repo also includes a small CLI and MCP server so Codex, Xcode, and other local agents can query the same local index before asking a model to reason about API usage.
 
+![Apple Docs Explorer social card](docs/assets/brand/apple-docs-explorer-social-card.png)
+
 ![Apple Docs Explorer browse UI](docs/assets/screenshots/apple-docs-explorer-browse.png)
 
 ## Why this exists
@@ -40,6 +42,7 @@ Not in v0.1:
 
 ## Features
 
+- **Native app identity:** includes a generated macOS app icon and public project image for releases, README previews, and community sharing.
 - **Search-first lookup:** search framework names, symbols, doc types, and content.
 - **Browse-first exploration:** browse all frameworks, filter by kit name, and drill into a specific framework.
 - **Grouped framework pages:** framework overview, topics, articles, tutorials, samples, symbols, and other entries.

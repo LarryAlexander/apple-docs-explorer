@@ -4,6 +4,8 @@ Screenshots in this folder are intended for the README, GitHub repository previe
 
 Current images:
 
+- `docs/assets/brand/apple-docs-explorer-app-icon.png`: generated app icon source image.
+- `docs/assets/brand/apple-docs-explorer-social-card.png`: public README/social preview image.
 - `docs/assets/screenshots/apple-docs-explorer-browse.png`: main browse/detail split view.
 - `docs/assets/screenshots/apple-docs-explorer-framework-empty-state-before-fix.png`: regression evidence for the framework display-name mismatch fixed in v0.1.0.
 

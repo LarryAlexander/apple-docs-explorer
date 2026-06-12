@@ -13,8 +13,10 @@ targets:
     deploymentTarget: "15.0"
     sources:
       - AppleDocsExplorerApp/Sources
+      - AppleDocsExplorerApp/Resources
     settings:
       base:
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         PRODUCT_BUNDLE_IDENTIFIER: com.lathekid.AppleDocsExplorer
         PRODUCT_NAME: Apple Docs Explorer
         SWIFT_STRICT_CONCURRENCY: complete
